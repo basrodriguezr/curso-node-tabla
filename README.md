@@ -1,0 +1,5 @@
+--help          Muestra ayuda                                                           [booleano]      
+--version       Muestra número de versión                                               [booleano]      
+-b, --base      Es la base de la tabla de multiplicar.                                  [número] [requerido]      
+-l, --listar    Sirve para listar los datos que se han guardado en el archivo.          [booleano] [defecto: false]      
+-h, --hasta    Hasta donde se va a multiplicar la base.                                 [número] [defecto: 10]  
