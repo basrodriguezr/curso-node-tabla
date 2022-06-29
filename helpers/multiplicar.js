@@ -26,7 +26,7 @@ const crearArchivo2 = async (multiplicador, listar, hasta) => {
         let salida = '';  
         
         for (contador=1;contador<=hasta;contador++){
-             salida += `${multiplicador} x ${contador} = ${multiplicador*contador}\n`;
+            salida += `${multiplicador} x ${contador} = ${multiplicador*contador}\n`;
         }
 
         fs.writeFileSync(`./Archivos/tabla-${multiplicador}.txt`,salida); 
